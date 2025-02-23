@@ -2,11 +2,11 @@
   "name": "blog-backend",
   "version": "1.0.0",
   "description": "Backend for a blog site with authentication and post management",
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
